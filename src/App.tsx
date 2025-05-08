@@ -1,4 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { loader as homeLoader } from "./pages/Home";
+import SingleProject from "./component/projects/SingleProject";
 
 import {
   HomeLayout,
@@ -18,6 +20,7 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home />,
+        loader: homeLoader,
       },
       {
         path: "about",
@@ -26,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "projects",
         element: <Projects />,
+      },
+      {
+        path: "projects/:id",
+        element: <SingleProject />,
       },
       {
         path: "contact",

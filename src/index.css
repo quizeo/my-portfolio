@@ -6,9 +6,20 @@
   --secondary: #fd6c03;
   --white: #ffffff;
   --font-krona: "Krona One", sans-serif;
+  --font-inter: "Inter", sans-serif;
 }
 
 body {
   background-color: var(--primary);
   color: var(--white);
+  font-family: var(--font-inter);
+}
+
+p {
+  font-family: var(--font-inter);
+}
+
+h1 {
+  font-family: var(--font-krona);
+  color: var(--secondary);
 }
