@@ -18,7 +18,7 @@ type FeaturedBoxesProps = {
 
 const FeaturedBoxes = ({ featuredItems }: FeaturedBoxesProps) => {
   return (
-    <div className="flex flex-wrap justify-center my-8 gap-8 xl:gap-12">
+    <div className="flex flex-wrap justify-center my-8 gap-8 xl:gap-12 mb-15">
       {featuredItems.map((item) => {
         const { id, title, description, tech, link, image } = item;
         return (

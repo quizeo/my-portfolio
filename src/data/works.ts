@@ -17,7 +17,7 @@ import hollyspringscare from "../assets/work/hollyspringscare.png";
 
 export const works = [
   {
-    id: 1,
+    id: 38,
     title: "Infinity Home Health Care,LLC",
     description:
       "Infinity Home Health Care, LLC provides compassionate, personalized home care services—including personal care, nursing, and respite support—to enhance comfort, health, and independence at home.",
@@ -29,7 +29,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 2,
+    id: 39,
     title: "MLC Medical Marketing Group, Inc.",
     description:
       "MLC Medical Marketing Group, Inc. offers reliable medical supplies and equipment with quality service and affordable pricing—supporting health and wellness every day.",
@@ -41,7 +41,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 3,
+    id: 40,
     title: "Balanced Behavioral Health",
     description:
       "Balanced Behavioral Health provides compassionate, personalized mental health services—from crisis response to skill building—empowering individuals to achieve emotional stability and a more fulfilling life.",
@@ -53,7 +53,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 4,
+    id: 41,
     title: "M&S Tax Service",
     description:
       "M&S Tax Service offers expert, personalized tax solutions for individuals and businesses—helping you maximize refunds, stay compliant, and achieve financial peace of mind.",
@@ -65,7 +65,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 5,
+    id: 42,
     title: "R.A.B Home Healthcare LLC",
     description:
       "R.A.B Home Healthcare LLC offers compassionate assisted living and memory care services, dedicated to enhancing seniors' quality of life with personalized support, dignity, and 24/7 care.",
@@ -77,7 +77,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 6,
+    id: 43,
     title: "Trinity Home Health, Inc.",
     description:
       "Trinity Home Health, Inc. delivers compassionate, personalized medical and non-medical home care—promoting healing, comfort, and independence right where you live.",
@@ -90,7 +90,7 @@ export const works = [
   },
 
   {
-    id: 7,
+    id: 44,
     title: "Sun Adult Family Home LLC",
     description:
       "Sun Adult Family Home LLC provides compassionate, personalized care in a warm facility setting—supporting seniors with daily living, medication management, and meaningful engagement to promote dignity and independence.",
@@ -102,7 +102,7 @@ export const works = [
     featured: true,
   },
   {
-    id: 8,
+    id: 45,
     title: "PrimeRose HealthCare Services Inc.",
     description:
       "PrimeRose HealthCare Services Inc. provides skilled healthcare staffing and personalized home care, ensuring compassionate, professional support for both healthcare facilities and individuals in the comfort of their homes.",
@@ -114,7 +114,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 9,
+    id: 46,
     title: "Diabetes Associates Medical Group",
     description:
       "Diabetes Associates Medical Group provides expert, compassionate care to help individuals manage diabetes and related health conditions. Our personalized approach empowers patients with the knowledge and support needed for better health and a brighter future.",
@@ -126,7 +126,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 10,
+    id: 47,
     title: "World Trucking LLC",
     description:
       "World Trucking LLC offers seamless global logistics solutions, tailoring services to meet your unique transportation and supply chain needs. With a commitment to safety, efficiency, and customer satisfaction, we ensure your cargo arrives safely and on time, backed by advanced technology and expert service.",
@@ -138,7 +138,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 11,
+    id: 48,
     title: "Allapattah Community Development and Betterment Inc",
     description:
       "Allapattah Community Development and Betterment Inc empowers youth through counseling, education, and support for successful transitions. We inspire change and leadership in our community.",
@@ -150,7 +150,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 12,
+    id: 49,
     title: "Texas Nursing Services",
     description:
       "Texas Nursing Services provides top-tier healthcare staffing solutions, offering qualified nurses, allied health professionals, and leaders to meet the unique needs of healthcare facilities across Texas. We're dedicated to enhancing patient outcomes with skilled, compassionate staff.",
@@ -162,7 +162,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 13,
+    id: 50,
     title: "LC Lending Inc",
     description:
       "LC Lending Inc. offers flexible financing options, including conventional, rehab, and jumbo loans, tailored to your homeownership needs. We're here to guide you every step of the way!",
@@ -174,7 +174,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 14,
+    id: 51,
     title: "Wecare Health Services LLC",
     description:
       "Wecare Health Services LLC offers compassionate care for individuals with developmental disabilities, promoting independence and well-being through respite, habilitation, and transportation services.",
@@ -186,7 +186,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 15,
+    id: 52,
     title: "FH Pathways Alaska",
     description:
       "FH Pathways Alaska provides personalized mental health, addiction, and family support services to help individuals heal and grow. We're committed to fostering resilience and empowering change.",
@@ -198,7 +198,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 16,
+    id: 53,
     title: "Immunity Care",
     description:
       "Immunity Care offers fast, trusted healthcare with primary and urgent care services, including flu testing, physicals, and telemedicine. We're dedicated to providing accessible, personalized care for families in Maryland.",
@@ -210,7 +210,7 @@ export const works = [
     featured: false,
   },
   {
-    id: 17,
+    id: 54,
     title: "Holly Springs Care",
     description:
       "Holly Springs Care provides compassionate homecare services including personal care, recovery, Alzheimer’s and dementia care, and light housekeeping, helping your loved ones live independently and comfortably at home. Serving multiple NC counties.",
