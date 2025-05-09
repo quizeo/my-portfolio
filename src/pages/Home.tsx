@@ -3,6 +3,7 @@ import illustration from "../assets/hero/illustration.png";
 import InfoSection from "../component/featuredProject/InfoSection";
 import { works } from "../data/works";
 import { myProjects } from "../data/myProjects";
+import { mobile } from "../data/mobile";
 import FeaturedBoxes from "../component/featuredProject/FeaturedBoxes";
 import { useLoaderData } from "react-router-dom";
 
@@ -11,7 +12,12 @@ export const loader = () => {
   const featuredProjects = myProjects.filter(
     (project) => project.featured === true
   );
-  const featuredItems = [...featuredWorks, ...featuredProjects];
+  const featuredMobile = mobile.filter((project) => project.featured === true);
+  const featuredItems = [
+    ...featuredMobile,
+    ...featuredWorks,
+    ...featuredProjects,
+  ];
 
   return { featuredItems };
 };
