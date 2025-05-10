@@ -61,8 +61,10 @@ const SingleProject = () => {
         >
           Projects
         </Link>
-        <span className="mx-2 text-secondary"> {">"}</span>
-        <span className="text-secondary font-semibold">{project.title}</span>
+        <span className="mx-2 text-[12px] sm:text-sm"> {">"}</span>
+        <span className="text-[12px] sm:text-sm font-semibold">
+          {project.title}
+        </span>
       </div>
 
       {/* Project Details */}
