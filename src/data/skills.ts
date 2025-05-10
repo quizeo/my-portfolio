@@ -29,7 +29,7 @@ import photoshop from "../assets/skill/photoshop.png";
 export const skills = [
   {
     id: 1,
-    name: " html",
+    name: "html",
     icon: html,
   },
   {

@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { loader as homeLoader } from "./pages/Home";
+import { loader as singleProjectLoader } from "./component/projects/SingleProject";
 import { loader as viewMoreLoader } from "./component/projects/ViewMore";
 // import { loader as projectsLoader } from "./pages/Projects";
 import SingleProject from "./component/projects/SingleProject";
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
       {
         path: "projects/:id",
         element: <SingleProject />,
+        loader: singleProjectLoader,
       },
       {
         path: "projects/category/:category",
