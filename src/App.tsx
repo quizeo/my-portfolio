@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { loader as homeLoader } from "./pages/Home";
+import { loader as viewMoreLoader } from "./component/projects/ViewMore";
+// import { loader as projectsLoader } from "./pages/Projects";
 import SingleProject from "./component/projects/SingleProject";
 
 import {
@@ -10,6 +12,7 @@ import {
   LetsConnect,
   Projects,
 } from "./pages/index";
+import ViewMore from "./component/projects/ViewMore";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +36,11 @@ const router = createBrowserRouter([
       {
         path: "projects/:id",
         element: <SingleProject />,
+      },
+      {
+        path: "projects/category/:category",
+        element: <ViewMore />,
+        loader: viewMoreLoader,
       },
       {
         path: "contact",
