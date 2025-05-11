@@ -5,9 +5,10 @@ import { mobile } from "../../data/mobile";
 import EachBoxes from "./EachBoxes";
 
 const CategoryAll = () => {
-  const sortedWorks = [...works].sort((a, b) => b.id - a.id);
-  const sortedMyProjects = [...myProjects].sort((a, b) => b.id - a.id);
-  const sortedMobile = [...mobile].sort((a, b) => b.id - a.id);
+  const sortedWorks = [...works].reverse();
+  const sortedMyProjects = [...myProjects].reverse();
+  const sortedMobile = [...mobile].reverse();
+
   return (
     <div>
       {/* WORK */}

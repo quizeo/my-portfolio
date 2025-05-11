@@ -6,9 +6,9 @@ import { mobile } from "../../data/mobile";
 
 // Get all projects combined
 const getAllProjects = () => {
-  const sortedWorks = [...works].sort((a, b) => b.id - a.id);
-  const sortedMyProjects = [...myProjects].sort((a, b) => b.id - a.id);
-  const sortedMobile = [...mobile].sort((a, b) => b.id - a.id);
+  const sortedWorks = [...works].reverse();
+  const sortedMyProjects = [...myProjects].reverse();
+  const sortedMobile = [...mobile].reverse();
   const allProjects = [...sortedWorks, ...sortedMyProjects, ...sortedMobile];
   return allProjects;
 };

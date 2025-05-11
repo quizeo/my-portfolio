@@ -35,10 +35,11 @@ import zeoTailwind from "../assets/self/zeo-tailwind-react.png";
 import zeoRedux from "../assets/self/zeo-redux-react.png";
 import zeoComfyStore from "../assets/self/zeo-comfy-store-react.png";
 import zeoStore from "../assets/self/StoreZeo.png";
+import { v4 as uuidv4 } from "uuid";
 
 export const myProjects = [
   {
-    id: 1,
+    id: uuidv4(),
     title: "move up",
     description:
       "Welcome to our website! We're committed to providing exceptional moving services throughout the US. As a startup, we believe that moving should be simple and stress-free. Our goal is to make the entire experience seamless and enjoyable for our customers. This website was created using HTML, CSS, and Bootstrap.",
@@ -50,7 +51,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 2,
+    id: uuidv4(),
     title: "Doggo",
     description:
       "Join a community of dog enthusiasts and explore fascinating dogs in your area! Our easy-to-use platform, designed with HTML, CSS, and Bootstrap, allows you to browse profiles, share photos, and engage in exciting activities. Sign up today and embark on your canine adventures!",
@@ -62,7 +63,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 3,
+    id: uuidv4(),
     title: "DrumQ",
     description:
       "DrumQ is a web-based drumming app built with HTML, CSS, and JavaScript, allowing users to play virtual drum sounds by pressing numbered keys corresponding to different drum parts displayed on the screen.",
@@ -74,7 +75,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 4,
+    id: uuidv4(),
     title: "Dice Game",
     description:
       "This straightforward dice game, built with HTML, CSS, and JavaScript, lets two players roll virtual dice. When the page is refreshed, it displays the winner with a message. It's a clean, interactive project demonstrating basic DOM manipulation and styling for a fun user experience.",
@@ -86,7 +87,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 5,
+    id: uuidv4(),
     title: "Simon Game",
     description:
       "The Simon Game is a classic memory challenge where players follow and repeat an increasingly complex sequence of colors and sounds, built using HTML, CSS, JavaScript, and jQuery.",
@@ -98,7 +99,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 6,
+    id: uuidv4(),
     title: "My Valentine",
     description:
       "This website is dedicated to inviting my crush on a Valentine's date.",
@@ -110,7 +111,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 7,
+    id: uuidv4(),
     title: "Taco Quizeo Recipe",
     description:
       "Taco Quizeo Recipe is a website featuring fish, beef, and chicken taco recipes, built with Node.js, Express.js, and EJS, offering dynamic content and sample JSON for structured data.",
@@ -122,7 +123,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 8,
+    id: uuidv4(),
     title: "Forecast zeo",
     description:
       "Project Forecast is a Node.js-based app that shows real-time weather, including location, temperature, and forecast details, using OpenWeatherMap API with EJS, HTML, CSS, and JavaScript.",
@@ -134,7 +135,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 9,
+    id: uuidv4(),
     title: "Zeo Blog",
     description:
       "Zeo Blog is a sleek blogging platform built with HTML, CSS, JavaScript, jQuery, Express.js, and Node.js, offering a responsive design for reading and posting blogs.",
@@ -156,7 +157,7 @@ export const myProjects = [
     featured: true,
   },
   {
-    id: 10,
+    id: uuidv4(),
     title: "Zeo Currency Converter",
     description:
       "This website is dedicated to currency conversion, built with Node.js, EJS, and an API.",
@@ -168,7 +169,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 11,
+    id: uuidv4(),
     title: "Book_Notes",
     description:
       "This Book Notes website lets you explore my personal notes on books I've read. It allows adding books and notes, built using Node.js, EJS, PostgreSQL, and JavaScript.",
@@ -190,7 +191,7 @@ export const myProjects = [
     featured: true,
   },
   {
-    id: 12,
+    id: uuidv4(),
     title: "zeo todo list ",
     description:
       "This website primarily functions as a to-do list, allowing users to add, delete, update, and view items. It is built using Node.js, EJS, and PostgreSQL.",
@@ -212,7 +213,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 13,
+    id: uuidv4(),
     title: "todo list react",
     description:
       "Your React to-do list app allows users to add, delete, and complete tasks with a simple, user-friendly interface.",
@@ -224,7 +225,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 14,
+    id: uuidv4(),
     title: "Keeper note zeo",
     description:
       "Keeper Note Zeo is a simple note-taking app built with React, HTML, CSS, and JavaScript. It allows users to add and delete notes with a title and content.",
@@ -236,7 +237,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 15,
+    id: uuidv4(),
     title: "Zeo Best Amazon Book",
     description:
       "A simple React website that showcases the best Amazon books with a clean and user-friendly interface.",
@@ -248,7 +249,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 16,
+    id: uuidv4(),
     title: "Backroad-react",
     description:
       "Backroad App is a simple yet visually appealing website built with React. It features sections for services, tours, and an about us page.",
@@ -260,7 +261,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 17,
+    id: uuidv4(),
     title: "Zeo Tours react",
     description:
       "This website shows tour details from an API. Users can view tour information and remove tours they are not interested in. It is built with React.",
@@ -272,7 +273,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 18,
+    id: uuidv4(),
     title: "Zeo Birthday react",
     description:
       "This is a birthday list website made with React. You can remove a single birthday or clear the whole list. I used Context API to share data between pages without passing it through each one.",
@@ -284,7 +285,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 19,
+    id: uuidv4(),
     title: "Zeo Reviews react",
     description:
       "This website, developed using React, is designed to display comprehensive reviews of every employee within their company, providing valuable insights into their performance and contributions.",
@@ -296,7 +297,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 20,
+    id: uuidv4(),
     title: "Zeo Accordion react",
     description:
       "This is an FAQ (Frequently Asked Questions) section built using React, where users can expand and collapse questions for answers.",
@@ -308,7 +309,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 21,
+    id: uuidv4(),
     title: "Zeo Menu react",
     description:
       "This is a responsive food menu UI with category filters. Users can view menu items with images, descriptions, and prices. Clicking 'Show More' expands the description. Built with React.",
@@ -320,7 +321,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 22,
+    id: uuidv4(),
     title: "Zeo Tab react",
     description:
       "A responsive React website that displays work experience with a sidebar for selecting companies. It features a clean UI and smooth interactions.",
@@ -332,7 +333,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 23,
+    id: uuidv4(),
     title: "Zeo Slider react",
     description:
       "This project showcases two testimonial carousels built with React. The upper carousel is a manually implemented slider, while the lower one uses the Slick Carousel library. The design features smooth transitions and a clean UI for displaying user feedback.",
@@ -344,7 +345,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 24,
+    id: uuidv4(),
     title: "Zeo Lorem Ipsum react",
     description:
       "A React-based web app that generates fun, candy-themed placeholder text as an alternative to the classic Lorem Ipsum. Simply choose the number of paragraphs and click generate!",
@@ -356,7 +357,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 25,
+    id: uuidv4(),
     title: "Zeo Color Generator react",
     description:
       "A React-based color tool that generates a full range of tints and shades from any input hex color. Instantly visualize color variations to help with design decisions and color palette creation. Just enter a hex code and hit submit!",
@@ -368,7 +369,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 26,
+    id: uuidv4(),
     title: "Zeo Cms Project react",
     description:
       "A simple React project showcasing mini-apps like a FAQ section, birthday reminder, and review slider. Built with functional components, React hooks, and clean UI design. Uses Contentful CMS to manage content and fetch data via API to render dynamically on the site.",
@@ -380,7 +381,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 27,
+    id: uuidv4(),
     title: "Zeo Grocery bud react",
     description:
       "Grocery Bud is a simple and clean React-based grocery list application that allows users to manage their shopping list with ease. Users can add grocery items, mark them as completed (crossed out), and remove them from the list.",
@@ -392,7 +393,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 28,
+    id: uuidv4(),
     title: "Zeo Navbar react",
     description:
       "A responsive navigation bar built with React. It supports both desktop and mobile views with a clean toggle menu and social media icons. Lightweight and easy to integrate.",
@@ -404,7 +405,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 29,
+    id: uuidv4(),
     title: "Zeo Sidebar react",
     description:
       "A simple and responsive sidebar with a toggle modal built using React. Smooth transitions and clean UI for easy integration into any project.",
@@ -416,7 +417,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 30,
+    id: uuidv4(),
     title: "Zeo Strapi react",
     description:
       "A React-based landing page with a hover-activated dropdown menu. Built using Context API to manage global values. Inspired by modern CMS platforms like Strapi.",
@@ -428,7 +429,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 31,
+    id: uuidv4(),
     title: "Zeo Cart react",
     description:
       "A simple shopping cart application built with React. Users can add, remove, and adjust item quantities with a dynamic total price display. Clean and minimal UI for a smooth cart experience.",
@@ -440,7 +441,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 32,
+    id: uuidv4(),
     title: "Zeo MixMaster react",
     description:
       "MixMaster is a React-based cocktail app that fetches data from an API. It allows users to browse drink recipes by glass type and includes search functionality. The app uses React Router for navigation.",
@@ -452,7 +453,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 33,
+    id: uuidv4(),
     title: "Zeo Unsplash react",
     description:
       "A simple image search app built with React and React Query. It fetches images from the Unsplash API based on user input and supports both light and dark modes.",
@@ -464,7 +465,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 34,
+    id: uuidv4(),
     title: "Zeo Tailwind react",
     description:
       "This is a personal portfolio website built using React and styled with Tailwind CSS. It showcases my skills, tech stack, and web development projects in a clean and responsive layout.",
@@ -476,7 +477,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 35,
+    id: uuidv4(),
     title: "Zeo Redux react",
     description:
       "This is a responsive shopping cart application built with React and Redux Toolkit. It demonstrates state management using Redux, allowing users to add, remove, and adjust item quantities in the cart.",
@@ -488,7 +489,7 @@ export const myProjects = [
     featured: false,
   },
   {
-    id: 36,
+    id: uuidv4(),
     title: "Zeo Comfy Store react",
     description:
       "This is a responsive shopping cart application built with React and Redux Toolkit. It demonstrates state management using Redux, allowing users to add, remove, and adjust item quantities in the cart.",
@@ -500,7 +501,7 @@ export const myProjects = [
     featured: true,
   },
   {
-    id: 37,
+    id: uuidv4(),
     title: "Zeo Store nextjs",
     description:
       "This is a modern ecommerce web app built with Next.js, Tailwind CSS, ShadCN UI, Supabase, and Stripe. Users can browse products, add them to their cart, complete payments securely through Stripe, and view their order history.",
