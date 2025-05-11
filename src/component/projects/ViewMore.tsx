@@ -4,6 +4,7 @@ import { myProjects } from "../../data/myProjects";
 import { mobile } from "../../data/mobile";
 import TitleSection from "./TitleSection";
 import breadcrumbs from "../../assets/project/breadcrumb.png";
+import { getOptimizedImageUrl } from "../../utils/imageUtils";
 
 export const loader = ({ params }: { params: Params<string> }) => {
   const { category } = params;
@@ -103,7 +104,7 @@ const ViewMore = () => {
             className="w-[360px] sm:w-[380px] lg:w-[400px] p-4 border border-white rounded-[20px] transition-colors"
           >
             <img
-              src={Object.values(project.image)[0] as string}
+              src={getOptimizedImageUrl(project.image)}
               alt={project.title}
               className="w-full h-[220px] object-cover object-top rounded-[20px]"
               style={{

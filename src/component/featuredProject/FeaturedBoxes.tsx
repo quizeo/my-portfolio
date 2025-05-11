@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { getOptimizedImageUrl } from "../../utils/imageUtils";
 
 type FeaturedItem = {
   id: number;
@@ -27,7 +28,7 @@ const FeaturedBoxes = ({ featuredItems }: FeaturedBoxesProps) => {
             key={id}
           >
             <img
-              src={Object.values(image)[0]}
+              src={getOptimizedImageUrl(image)}
               alt={title}
               className="w-full h-[220px] object-cover object-top rounded-[20px]"
               style={{

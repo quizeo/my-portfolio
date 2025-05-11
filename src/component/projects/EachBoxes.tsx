@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { getOptimizedImageUrl } from "../../utils/imageUtils";
 
 const EachBoxes = ({
   sorted,
@@ -20,7 +21,7 @@ const EachBoxes = ({
               className="w-[360px] sm:w-[380px] lg:w-[400px] p-4 border border-white rounded-[20px] transition-colors"
             >
               <img
-                src={Object.values(project.image)[0] as string}
+                src={getOptimizedImageUrl(project.image)}
                 alt={project.title}
                 className="w-full h-[220px] object-cover object-top rounded-[20px]"
                 style={{
