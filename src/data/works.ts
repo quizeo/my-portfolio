@@ -14,6 +14,14 @@ import wecarehealthaz from "../assets/work/wecarehealthaz.png";
 import fhpathways from "../assets/work/fhpathways.png";
 import immunitycareservices from "../assets/work/immunitycareservices.png";
 import hollyspringscare from "../assets/work/hollyspringscare.png";
+import epsilonhomebasedqualitycare from "../assets/work/epsilonhomebasedqualitycare.png";
+import wecareforeldersandmore from "../assets/work/wecareforeldersandmore.png";
+import avghomehealth from "../assets/work/avghomehealth.png";
+import vmstaffingsolutions from "../assets/work/vmstaffingsolutions.png";
+import remacsupportservices from "../assets/work/remacsupportservices.png";
+import starhealthcareservices from "../assets/work/starhealthcareservices.png";
+import peakpsychiatric from "../assets/work/peakpsychiatric.png";
+
 import { v4 as uuidv4 } from "uuid";
 
 export const works = [
@@ -220,6 +228,95 @@ export const works = [
     tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
     link: "https://www.hollyspringscare.com/",
     image: { hollyspringscare },
+    featured: false,
+  },
+  {
+    id: uuidv4(),
+    title: "Epsilon Home Care",
+    description:
+      "Epsilon Home Care offers compassionate, personalized in-home services like live-in care, hygiene assistance, dementia care, companionship, and veteran support—empowering clients to live with dignity and independence in the comfort of home.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.epsilonhomebasedqualitycare.com/",
+    image: { epsilonhomebasedqualitycare },
+    featured: false,
+  },
+
+  {
+    id: uuidv4(),
+    title: "We Care For Elders and More",
+    description:
+      "We Care For Elders and More delivers high-quality, compassionate home care services—ranging from personal care and skilled nursing to companionship and meal prep—helping seniors live with dignity, comfort, and independence in their own homes.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.wecareforeldersandmore.com/",
+    image: { wecareforeldersandmore },
+    featured: false,
+  },
+
+  {
+    id: uuidv4(),
+    title: "AVG Home Health",
+    description:
+      "AVG Home Health Care delivers expert, compassionate healthcare right in your home—offering nursing, physical therapy, occupational therapy, wound care, and speech therapy to support recovery, independence, and well-being.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.avghomehealth.com/",
+    image: { avghomehealth },
+    featured: false,
+  },
+  {
+    id: uuidv4(),
+    title: "Visionary Medical Staffing Solutions",
+    description:
+      "Visionary Medical Staffing Solutions connects healthcare facilities with skilled nurses and professionals, ensuring top-quality, patient-centered care through seamless, reliable staffing services.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.vmstaffingsolutions.com/",
+    image: { vmstaffingsolutions },
+    featured: false,
+  },
+
+  {
+    id: uuidv4(),
+    title: "REMAC SUPPORT SERVICES, INC",
+    description:
+      "REMAC Support Services, Inc empowers individuals with developmental disabilities through personalized care, supported living, and compassionate assistance that fosters” independence and dignity.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.remacsupportservices.com/",
+    image: { remacsupportservices },
+    featured: false,
+  },
+
+  {
+    id: uuidv4(),
+    title: "Star Health Care Services",
+    description:
+      "Star Health Care Services LLC** delivers reliable healthcare staffing solutions, connecting facilities with skilled nurses and caregivers for seamless, high-quality patient care.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.starhealthcareservices.com/",
+    image: { starhealthcareservices },
+    featured: false,
+  },
+
+  {
+    id: uuidv4(),
+    title: "Peak Mental Health Psychiatry, PLLC",
+    description:
+      "Peak Mental Health Psychiatry, PLLC provides compassionate, personalized psychiatric care to help you manage anxiety, stress, and other mental health challenges—empowering you to heal and thrive.",
+    platform: ["front-end", "web"],
+    githubLink: "no link",
+    tech: ["html", "css", "wordpress", "php", "jquery", "mysql"],
+    link: "https://www.peakpsychiatric.com/",
+    image: { peakpsychiatric },
     featured: false,
   },
 ];
