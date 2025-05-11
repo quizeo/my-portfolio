@@ -22,10 +22,13 @@ const ProjectBoxes = ({ filteredProjects }: { filteredProjects: any[] }) => {
             >
               <LazyLoadImage
                 src={Object.values(project.image)[0] as string}
+                srcSet={`
+               ${Object.values(project.image)[0]} 400w,
+               ${Object.values(project.image)[0]} 800w
+             `}
+                sizes="(max-width: 600px) 400px, 800px"
                 alt={project.title}
-                effect="blur"
-                width={400}
-                height={220}
+                loading="lazy"
                 className="w-full h-[220px] object-cover object-top rounded-[20px]"
                 style={{
                   border: "3px solid var(--secondary)",
