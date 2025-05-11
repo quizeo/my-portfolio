@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { getOptimizedImageUrl } from "../../utils/imageUtils";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 type FeaturedItem = {
   id: number;
@@ -27,9 +28,15 @@ const FeaturedBoxes = ({ featuredItems }: FeaturedBoxesProps) => {
             className=" w-[360px] sm:w-[380px] lg:w-[400px] p-4 border border-white rounded-[20px]  transition-colors"
             key={id}
           >
-            <img
-              src={getOptimizedImageUrl(image)}
+            <LazyLoadImage
+              src={Object.values(image)[0] as string}
+              srcSet={`
+               ${Object.values(image)[0]} 400w,
+               ${Object.values(image)[0]} 800w
+             `}
+              sizes="(max-width: 600px) 400px, 800px"
               alt={title}
+              loading="lazy"
               className="w-full h-[220px] object-cover object-top rounded-[20px]"
               style={{
                 border: "3px solid var(--secondary)",
