@@ -14,8 +14,8 @@ const LetsConnect = () => {
       </div>
 
       {/* social */}
-      <div className="grid grid-cols-1 xl:grid-cols-3 mt-12 items-center gap-8">
-        <div className="md:col-span-1">
+      <div className="grid grid-cols-1 xl:grid-cols-3 mt-12 items-center gap-8 border-t border-t-[#333] pt-8">
+        <div className="md:col-span-1 mx-auto w-[400] xl:w-[450px]">
           <SocialMessage />
         </div>
         <div className="md:col-span-2">

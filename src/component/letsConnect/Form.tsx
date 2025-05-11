@@ -8,6 +8,7 @@ const Form = () => {
     email: "",
     message: "",
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{
     message: string;
@@ -94,6 +95,9 @@ const Form = () => {
           <label
             htmlFor="name"
             className="block text-sm font-medium mb-1 text-gray-200"
+            style={{
+              fontFamily: "var(--font-krona)",
+            }}
           >
             Name
           </label>
@@ -113,6 +117,9 @@ const Form = () => {
           <label
             htmlFor="email"
             className="block text-sm font-medium mb-1 text-gray-200"
+            style={{
+              fontFamily: "var(--font-krona)",
+            }}
           >
             Email
           </label>
@@ -132,6 +139,9 @@ const Form = () => {
           <label
             htmlFor="message"
             className="block text-sm font-medium mb-1 text-gray-200"
+            style={{
+              fontFamily: "var(--font-krona)",
+            }}
           >
             Message
           </label>
