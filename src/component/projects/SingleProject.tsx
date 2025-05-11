@@ -11,7 +11,7 @@ import { useEffect } from "react";
 export const loader = ({ params }: { params: Params<string> }) => {
   const { id } = params;
   const allProjects = [...works, ...myProjects, ...mobile];
-  const project = allProjects.find((project) => project.id === Number(id));
+  const project = allProjects.find((project) => project.id === id);
   if (!project) {
     throw new Error("Project not found");
   }
