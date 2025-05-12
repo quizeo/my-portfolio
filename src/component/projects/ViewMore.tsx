@@ -11,15 +11,23 @@ export const loader = ({ params }: { params: Params<string> }) => {
   const { category } = params;
 
   if (category === "work") {
-    return { projects: works, category: category, title: " Work Projects" };
+    return {
+      projects: works.reverse(),
+      category: category,
+      title: " Work Projects",
+    };
   } else if (category === "myProjects") {
     return {
-      projects: myProjects,
+      projects: myProjects.reverse(),
       category: category,
       title: "Personal Projects",
     };
   } else if (category === "mobile") {
-    return { projects: mobile, category: category, title: "Mobile Apps" };
+    return {
+      projects: mobile.reverse(),
+      category: category,
+      title: "Mobile Apps",
+    };
   }
 
   return { projects: [] };
