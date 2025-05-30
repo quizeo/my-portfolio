@@ -51,10 +51,9 @@ const FeaturedBoxes = ({ featuredItems }: FeaturedBoxesProps) => {
         >
           <LazyLoadImage
             src={Object.values(image)[0] as string}
-            srcSet={`
-             ${Object.values(image)[0]} 400w,
-             ${Object.values(image)[0]} 800w
-           `}
+            srcSet={` ${Object.values(image)[0]} 400w, ${
+              Object.values(image)[0]
+            } 800w `}
             sizes="(max-width: 600px) 400px, 800px"
             alt={title}
             loading="lazy"
@@ -63,9 +62,6 @@ const FeaturedBoxes = ({ featuredItems }: FeaturedBoxesProps) => {
               border: "3px solid var(--secondary)",
               boxShadow: "0 0 5px var(--secondary)",
             }}
-            effect="blur"
-            threshold={200}
-            placeholderSrc="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
           />
           {/* INFO */}
           <div className="px-0 sm:px-4 pt-4">
