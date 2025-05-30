@@ -14,9 +14,9 @@ export const loader = () => {
   );
   const featuredMobile = mobile.filter((project) => project.featured === true);
   const featuredItems = [
-    ...featuredMobile,
-    ...featuredWorks,
-    ...featuredProjects,
+    ...featuredMobile.reverse(),
+    ...featuredWorks.reverse(),
+    ...featuredProjects.reverse(),
   ];
 
   return { featuredItems };

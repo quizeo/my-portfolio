@@ -35,6 +35,9 @@ import zeoTailwind from "../assets/self/zeo-tailwind-react.png";
 import zeoRedux from "../assets/self/zeo-redux-react.png";
 import zeoComfyStore from "../assets/self/zeo-comfy-store-react.png";
 import zeoStore from "../assets/self/StoreZeo.png";
+import zeoSearch from "../assets/self/zeo-search.png";
+import serverWeatherWork from "../assets/self/serverWeatherWorfkflow.png";
+import ZeoWeatherEmail from "../assets/self/ZeoWeatherEmail.png";
 
 export const myProjects = [
   {
@@ -172,7 +175,7 @@ export const myProjects = [
     title: "Book_Notes",
     description:
       "This Book Notes website lets you explore my personal notes on books I've read. It allows adding books and notes, built using Node.js, EJS, PostgreSQL, and JavaScript.",
-    platform: ["fullstack", "web"],
+    platform: ["fullstack", "web", "backend"],
     tech: [
       "html",
       "css",
@@ -194,7 +197,7 @@ export const myProjects = [
     title: "zeo todo list ",
     description:
       "This website primarily functions as a to-do list, allowing users to add, delete, update, and view items. It is built using Node.js, EJS, and PostgreSQL.",
-    platform: ["fullstack", "web"],
+    platform: ["fullstack", "web", "backend"],
     tech: [
       "html",
       "css",
@@ -504,7 +507,7 @@ export const myProjects = [
     title: "Zeo Store nextjs",
     description:
       "This is a modern ecommerce web app built with Next.js, Tailwind CSS, ShadCN UI, Supabase, and Stripe. Users can browse products, add them to their cart, complete payments securely through Stripe, and view their order history.",
-    platform: ["fullstack", "web"],
+    platform: ["fullstack", "web", "backend"],
     githubLink: "https://github.com/quizeo/zeo-store-nextjs",
     tech: [
       "html",
@@ -519,6 +522,52 @@ export const myProjects = [
     ],
     link: "https://zeo-store-nextjs-d11r.vercel.app",
     image: { zeoStore },
+    featured: true,
+  },
+  {
+    id: "project-038",
+    title: "Zeo Search React",
+    description:
+      "Zeo Search GitHub is a web application built with React, TypeScript, GraphQL, and Apollo Client. It uses the GitHub API to fetch and display user information such as total repositories, followers, following, and more. A simple and efficient tool to explore GitHub profiles.",
+    platform: ["frontend", "web"],
+    githubLink: "https://github.com/quizeo/zeo-search-github",
+    tech: [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "tailwind",
+      "graphql",
+      "tailwind",
+    ],
+    link: "https://zeo-search-github.netlify.app/",
+    image: { zeoSearch },
+    featured: true,
+  },
+
+  {
+    id: "project-039",
+    title: "Server weather Workflow",
+    description:
+      "This is a Node.js server built with Express and MongoDB that sends automated weather update emails every day at 8 AM. It saves each email's recipient, subject, and message content in a MongoDB database. The server also supports fetching log history to view previously sent emails. client side: https://zeo-weather-email.netlify.app/",
+    platform: ["backend", "web"],
+    githubLink: "https://github.com/quizeo/server-weather-workflow",
+    tech: ["nodejs", "express", "mongodb"],
+    link: "no link",
+    image: { serverWeatherWork },
+    featured: false,
+  },
+
+  {
+    id: "project-040",
+    title: "Zeo Weather Email",
+    description:
+      "A simple client-side application that allows users to subscribe to daily weather updates via email. Users enter their email address and the city they want weather information for. The app sends this data to my custom server at https://server-weather-workflow.onrender.com, which handles the email scheduling and weather data delivery. server side: https://github.com/quizeo/server-weather-workflow",
+    platform: ["fullstack", "web"],
+    githubLink: "https://github.com/quizeo/zeo-weather-email",
+    tech: ["mern", "react", "nodejs", "express", "mongodb", "tailwind"],
+    link: "https://zeo-weather-email.netlify.app/",
+    image: { ZeoWeatherEmail },
     featured: true,
   },
 ];

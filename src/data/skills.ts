@@ -25,6 +25,9 @@ import vite from "../assets/skill/vite.png";
 import redux from "../assets/skill/redux.png";
 import stripe from "../assets/skill/stripe.png";
 import photoshop from "../assets/skill/photoshop.png";
+import mern from "../assets/skill/mern.png";
+import graphql from "../assets/skill/graphql.png";
+import mongodb from "../assets/skill/mongodb.png";
 
 export const skills = [
   {
@@ -42,124 +45,138 @@ export const skills = [
     name: "javascript",
     icon: javascript,
   },
-
   {
     id: 4,
+    name: "mern",
+    icon: mern,
+  },
+  {
+    id: 5,
     name: "react",
     icon: react,
   },
   {
-    id: 5,
+    id: 6,
     name: "nextjs",
     icon: nextjs,
   },
   {
-    id: 6,
+    id: 7,
     name: "typescript",
     icon: typescript,
   },
   {
-    id: 7,
+    id: 8,
     name: "flutter",
     icon: flutter,
   },
   {
-    id: 8,
+    id: 9,
     name: "wordpress",
     icon: wordpress,
   },
   {
-    id: 9,
+    id: 10,
     name: "php",
     icon: php,
   },
   {
-    id: 10,
+    id: 11,
     name: "nodejs",
     icon: nodejs,
   },
   {
-    id: 11,
+    id: 12,
     name: "ejs",
     icon: ejs,
   },
   {
-    id: 12,
+    id: 13,
     name: "express",
     icon: express,
   },
   {
-    id: 13,
+    id: 14,
+    name: "mongodb",
+    icon: mongodb,
+  },
+  {
+    id: 15,
     name: "mysql",
     icon: mysql,
   },
   {
-    id: 14,
+    id: 16,
     name: "postgresql",
     icon: postgresql,
   },
   {
-    id: 15,
+    id: 17,
     name: "firebase",
     icon: firebase,
   },
   {
-    id: 16,
+    id: 18,
+    name: "graphql",
+    icon: graphql,
+  },
+  {
+    id: 19,
     name: "tailwind",
     icon: tailwind,
   },
   {
-    id: 17,
+    id: 20,
     name: "bootstrap",
     icon: bootstrap,
   },
   {
-    id: 18,
+    id: 21,
     name: "jquery",
     icon: jquery,
   },
   {
-    id: 19,
+    id: 22,
     name: "figma",
     icon: figma,
   },
   {
-    id: 20,
+    id: 23,
     name: "supabase",
     icon: supabase,
   },
   {
-    id: 21,
+    id: 24,
     name: "shadcn",
     icon: shadcn,
   },
   {
-    id: 22,
+    id: 25,
     name: "materialui",
     icon: materialui,
   },
   {
-    id: 23,
+    id: 26,
     name: "render",
     icon: render,
   },
   {
-    id: 24,
+    id: 27,
     name: "vite",
     icon: vite,
   },
   {
-    id: 25,
+    id: 28,
     name: "redux",
     icon: redux,
   },
   {
-    id: 26,
+    id: 29,
     name: "stripe",
     icon: stripe,
   },
   {
-    id: 28,
+    id: 30,
     name: "photoshop",
     icon: photoshop,
   },
